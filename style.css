@@ -73,7 +73,7 @@ article {
     color: #C2C2C2;
 }
 
-.storeSession button {
+.button {
     width: 200px;
     height: 45px;
     background: #2F65F8;
@@ -87,6 +87,13 @@ article {
     font-size: 14px;
     line-height: 16px;
     color: #FFFFFF;
+}
+
+.illustration img {
+    max-width: 640px;
+    min-width: 304px;
+    max-height: 474px;
+    min-height: 225px;
 }
 
 .featureSection h2 {
@@ -170,6 +177,7 @@ article {
 }
 
 .contact {
+    padding: 52px 68px 52px 68px;
     background: #575988;
 }
 
@@ -211,23 +219,6 @@ article {
     outline: none;
 }
 
-.contactCart button {
-    width: 200px;
-    height: 48px;
-    background: #2F65F8;
-    box-shadow: 2px 3px 6px rgba(7, 4, 59, 0.157043);
-    border: none;
-    border-radius: 3.125px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-    cursor: pointer;
-}
-
 footer {
     background: #07043B;
     display: flex;
@@ -243,6 +234,10 @@ footer figure {
     gap: 8px;
 }
 
+footer nav {
+    gap: 7px;
+}
+
 .links {
     display: flex;
     flex-direction: column;
@@ -253,4 +248,132 @@ footer figure {
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
+}
+
+@media (max-width: 1099px) {
+    article {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 60px 0 40px 40px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .storeSession h1 {
+        width: 640px;
+    }
+
+    .storeSession p {
+        width: 540px;
+    }
+
+    .submit {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .submit input {
+        width: 380px;
+    }
+
+    .illustration img {
+        width: 450px;
+        height: 320px;
+        margin: 30px 0px 20px 0;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contactCart {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .contactCart input {
+        margin-top: 20px;
+        width: 380px;
+    }
+
+    .button {
+        width: 380px;
+    }
+}
+
+@media (max-width: 695px) {
+    header {
+        padding: 24px;
+    }
+
+    header img {
+        width: 80px;
+        height: 24px;
+    }
+
+    header li a {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .storeSession h1 {
+        width: 320px;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .storeSession p {
+        width: 296px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .featureSection h2 {
+        width: 259px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .featureSection .sectionDescription {
+        width: 320px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .contact h2 {
+        width: 195px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .contact p {
+        width: 280px;
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    footer {
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    footer section {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    footer nav {
+        display: flex;
+        justify-content: center;
+    }
 }
