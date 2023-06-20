@@ -26,6 +26,10 @@ header li {
     color: #07043B;
 }
 
+header li:hover {
+    transform: scale(115%);
+}
+
 article {
     padding: 80px;
     display: flex;
@@ -94,6 +98,13 @@ article {
     min-width: 304px;
     max-height: 474px;
     min-height: 225px;
+}
+
+.featureArticle {
+    background: url(./img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 200px;
 }
 
 .featureSection h2 {
@@ -250,6 +261,14 @@ footer nav {
     color: #FFFFFF;
 }
 
+.links:hover {
+    opacity: .7;
+}
+
+.icons:hover {
+    opacity: .5;
+}
+
 @media (max-width: 1099px) {
     article {
         display: flex;
@@ -330,6 +349,11 @@ footer nav {
         width: 320px;
         font-size: 24px;
         line-height: 36px;
+    }
+
+    .illustration img {
+        width: 300px;
+        height: 200px;
     }
 
     .storeSession p {
