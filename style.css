@@ -301,6 +301,11 @@ footer nav {
         width: 380px;
     }
 
+    .illustration {
+        display: flex;
+        justify-content: center;
+    }
+
     .illustration img {
         width: 450px;
         height: 320px;
