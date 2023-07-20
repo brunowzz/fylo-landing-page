@@ -1,8 +1,8 @@
 <h1 align="center">Disney App</h1>
 
-> 🔎 Este projeto permite ao usuário ver uma visualização do catálogo de alguns filmes do aplicativo Disney, utilizando tags semânticas para otimização do SEO.
+> 🔎 Este projeto pode ser acessado em diversos dispositivos.
 
-🗔 <a href="https://disneyappvnw.netlify.app" target="_blank"> Confira a aplicação </a> <br>
+🗔 <a href="https://fylo-lp.netlify.app" target="_blank"> Confira a aplicação </a> <br>
 
 ## :page_facing_up: Explicação
 
