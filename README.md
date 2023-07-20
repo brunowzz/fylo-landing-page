@@ -1,4 +1,4 @@
-<h1 align="center">Disney App</h1>
+<h1 align="center">Fylo</h1>
 
 > 🔎 Este projeto pode ser acessado em diversos dispositivos.
 
